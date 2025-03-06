@@ -9,7 +9,7 @@ import Joi from "joi";
 
 const schema = Joi.object({
 	description: Joi.string(),
-	id: Joi.string().required,
+	id: Joi.string(),
 	isPrivate: Joi.boolean().required,
 	languages: Joi.array().items(
 		Joi.object({
