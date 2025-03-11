@@ -11,7 +11,6 @@
 			{ "size": 60063, "node": { "name": "TypeScript" } },
 			{ "size": 100, "node": { "name": "Shell" } }
 		],
-		"updatedAt": "2025-02-17T09:51:43Z",
 		"url": "https://github.com/Flam64/CheckPoint-4-astro_and_aeronautics"
 	},
 	{
@@ -24,7 +23,6 @@
 			{ "size": 3893, "node": { "name": "CSS" } },
 			{ "size": 12814, "node": { "name": "TypeScript" } }
 		],
-		"updatedAt": "2025-02-01T13:27:26Z",
 		"url": "https://github.com/Flam64/geocode-demo"
 	},
 	{
@@ -39,7 +37,6 @@
 			{ "size": 55485, "node": { "name": "TypeScript" } },
 			{ "size": 100, "node": { "name": "Shell" } }
 		],
-		"updatedAt": "2025-01-16T06:44:27Z",
 		"url": "https://github.com/Flam64/js-wild-series"
 	},
 	{
@@ -54,15 +51,13 @@
 			{ "size": 37136, "node": { "name": "TypeScript" } },
 			{ "size": 100, "node": { "name": "Shell" } }
 		],
-		"updatedAt": "2024-12-18T07:11:39Z",
 		"url": "https://github.com/Flam64/wild-series"
 	},
 	{
 		"description": "",
 		"id": "R_kgDONe2Fmw",
 		"isPrivate": false,
-		"languages": [],
-		"updatedAt": "2024-12-17T13:53:02Z",
+		"languages": [{ "size": 72, "node": { "name": "HTML" } }],
 		"url": "https://github.com/Flam64/test-monorepo"
 	},
 	{
@@ -70,7 +65,6 @@
 		"id": "R_kgDONIgAVQ",
 		"isPrivate": false,
 		"languages": [{ "size": 562, "node": { "name": "JavaScript" } }],
-		"updatedAt": "2024-10-31T15:34:31Z",
 		"url": "https://github.com/Flam64/JS-React-W6-Serve-employees"
 	},
 	{
@@ -83,7 +77,6 @@
 			{ "size": 1767, "node": { "name": "CSS" } },
 			{ "size": 1202, "node": { "name": "TypeScript" } }
 		],
-		"updatedAt": "2024-10-31T15:14:30Z",
 		"url": "https://github.com/Flam64/JS-React-W6-Fetch-employees"
 	},
 	{
@@ -95,7 +88,6 @@
 			{ "size": 2042, "node": { "name": "CSS" } },
 			{ "size": 3536, "node": { "name": "TypeScript" } }
 		],
-		"updatedAt": "2024-10-27T14:18:33Z",
 		"url": "https://github.com/Flam64/week5-marmi-wild"
 	},
 	{
@@ -107,7 +99,6 @@
 			{ "size": 1767, "node": { "name": "CSS" } },
 			{ "size": 2152, "node": { "name": "TypeScript" } }
 		],
-		"updatedAt": "2024-10-25T09:25:20Z",
 		"url": "https://github.com/Flam64/ReactBasics-01-Pokedex"
 	},
 	{
@@ -115,7 +106,6 @@
 		"id": "R_kgDONAFRwQ",
 		"isPrivate": false,
 		"languages": [{ "size": 251, "node": { "name": "JavaScript" } }],
-		"updatedAt": "2024-10-19T18:00:58Z",
 		"url": "https://github.com/Flam64/challenge-final-quete-NodeJS"
 	},
 	{
@@ -123,15 +113,13 @@
 		"id": "R_kgDONAeN0A",
 		"isPrivate": false,
 		"languages": [{ "size": 186, "node": { "name": "JavaScript" } }],
-		"updatedAt": "2024-10-15T14:10:05Z",
 		"url": "https://github.com/Flam64/chalk"
 	},
 	{
 		"description": "",
 		"id": "R_kgDONAdU1A",
 		"isPrivate": false,
-		"languages": [],
-		"updatedAt": "2024-10-15T09:01:54Z",
+		"languages": [{ "size": 72, "node": { "name": "HTML" } }],
 		"url": "https://github.com/Flam64/Projet-Wilders"
 	},
 	{
@@ -139,7 +127,6 @@
 		"id": "R_kgDOM_8IKA",
 		"isPrivate": false,
 		"languages": [{ "size": 190, "node": { "name": "JavaScript" } }],
-		"updatedAt": "2024-10-14T15:58:01Z",
 		"url": "https://github.com/Flam64/challenge-node-04"
 	},
 	{
@@ -147,23 +134,20 @@
 		"id": "R_kgDOM61I2Q",
 		"isPrivate": false,
 		"languages": [{ "size": 72, "node": { "name": "HTML" } }],
-		"updatedAt": "2024-10-03T10:06:04Z",
 		"url": "https://github.com/Flam64/wild-project"
 	},
 	{
 		"description": "My first -repo-",
 		"id": "R_kgDOM6Sn5A",
 		"isPrivate": false,
-		"languages": [],
-		"updatedAt": "2024-10-02T20:29:41Z",
+		"languages": [{ "size": 72, "node": { "name": "HTML" } }],
 		"url": "https://github.com/Flam64/helloword"
 	},
 	{
 		"description": "Challenge git - github 3",
 		"id": "R_kgDOM6eGdg",
 		"isPrivate": false,
-		"languages": [],
-		"updatedAt": "2024-10-02T15:58:23Z",
+		"languages": [{ "size": 72, "node": { "name": "HTML" } }],
 		"url": "https://github.com/Flam64/my-awesome-project"
 	}
 ]

@@ -22,6 +22,8 @@ const schema = Joi.object({
 });
 
 const validateAddRepos = (req: Request, res: Response, next: NextFunction) => {
+	console.info("valeur de req.body dans validate : ", req.query);
+
 	const { error } = schema.validate(req.body);
 
 	if (error) {
