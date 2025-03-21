@@ -1,36 +1,39 @@
 import express, { query, type Request, type Response } from "express";
 
 import myRepos from "../../data/myRepos.json";
-import { validateAddRepos } from "../repos/repos.validateAddRepos";
+import { validateAddRepos } from "./repos.validateAddRepos";
 import type { MyReposType } from "./repos.type";
 const router = express.Router();
 
+let myReposState = myRepos;
+
 // display all repos
 router.get("/", (req: Request, res: Response) => {
-	res.status(200).json(myRepos);
+	console.info("Le client a demande tous les repos");
+	res.status(200).json(myReposState);
 });
 
 // add a repos
-router.post("/repos", validateAddRepos, (req: Request, res: Response) => {
+router.post("/", validateAddRepos, (req: Request, res: Response) => {
 	console.info("Je suis dans le REPOS", req.body);
 	const newId = Math.floor(Math.random() * 1000000).toString();
-	myRepos.push({ ...req.body, id: newId });
+	myReposState.push({ ...req.body, id: newId });
 	res.status(201).json({ id: newId });
 });
 
 // display with a query params
-router.get("/repos", (req: Request, res: Response) => {
+router.get("/", (req: Request, res: Response) => {
 	console.log("valeur de req.query: ", req.query);
 
 	let result = req.query.url
-		? myRepos?.filter((element) => element.url === req.query.url)
-		: myRepos;
+		? myReposState?.filter((element) => element.url === req.query.url)
+		: myReposState;
 
 	result = req.query.isPrivate
-		? myRepos.filter(
+		? myReposState.filter(
 				(element) => element.isPrivate.toString() === req.query.isPrivate,
 			)
-		: myRepos;
+		: myReposState;
 
 	const nbLimit = Number.parseInt(`${req.query.limit}`);
 	if (req.query.limit && result.length > nbLimit) {
@@ -61,13 +64,21 @@ router.get("/repos", (req: Request, res: Response) => {
 
 // display a repos with id
 router.get("/:id", (req: Request, res: Response) => {
-	const oneRepos = myRepos.find(
-		(findElementt) => findElementt.id === req.params.id,
+	const repo = myReposState.find(
+		(findElt) => findElt.id === req.params.id,
 	) as unknown as MyReposType;
-	if (oneRepos) {
-		res.status(200).json(oneRepos);
+	if (repo) {
+		res.status(200).json(repo);
 	} else {
 		res.sendStatus(404);
 	}
 });
+
+// delete
+router.delete("/:Id", (req: Request, res: Response) => {
+	console.info(req.params);
+	myReposState = myReposState.filter((repo) => repo.id !== req.params.Id);
+	res.sendStatus(204);
+});
+
 export default router;

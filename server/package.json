@@ -4,7 +4,7 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"getRepo": "gh repo list Flam64 --json id,description,isPrivate,url,languages > ./data/myRepos.json",
+		"getRepo": "gh repo list Flam64 --json id,name,isPrivate,url,languages,description > ./data/myRepos.json",
 		"start": "ts-node-dev ./src/index.ts"
 	},
 	"keywords": [],

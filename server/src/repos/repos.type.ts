@@ -4,9 +4,10 @@ type Languages = {
 };
 
 export type MyReposType = {
-	description: string;
 	id: string;
 	isPrivate: boolean;
-	url: string;
 	languages: Languages[];
+	name: string;
+	description: string;
+	url: string;
 };

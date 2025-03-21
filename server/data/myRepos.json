@@ -11,6 +11,7 @@
 			{ "size": 60063, "node": { "name": "TypeScript" } },
 			{ "size": 100, "node": { "name": "Shell" } }
 		],
+		"name": "CheckPoint-4-astro_and_aeronautics",
 		"url": "https://github.com/Flam64/CheckPoint-4-astro_and_aeronautics"
 	},
 	{
@@ -23,6 +24,7 @@
 			{ "size": 3893, "node": { "name": "CSS" } },
 			{ "size": 12814, "node": { "name": "TypeScript" } }
 		],
+		"name": "geocode-demo",
 		"url": "https://github.com/Flam64/geocode-demo"
 	},
 	{
@@ -37,6 +39,7 @@
 			{ "size": 55485, "node": { "name": "TypeScript" } },
 			{ "size": 100, "node": { "name": "Shell" } }
 		],
+		"name": "js-wild-series",
 		"url": "https://github.com/Flam64/js-wild-series"
 	},
 	{
@@ -51,13 +54,20 @@
 			{ "size": 37136, "node": { "name": "TypeScript" } },
 			{ "size": 100, "node": { "name": "Shell" } }
 		],
+		"name": "wild-series",
 		"url": "https://github.com/Flam64/wild-series"
 	},
 	{
 		"description": "",
 		"id": "R_kgDONe2Fmw",
 		"isPrivate": false,
-		"languages": [{ "size": 72, "node": { "name": "HTML" } }],
+		"languages": [
+			{ "size": 734, "node": { "name": "JavaScript" } },
+			{ "size": 403, "node": { "name": "HTML" } },
+			{ "size": 1767, "node": { "name": "CSS" } },
+			{ "size": 1202, "node": { "name": "TypeScript" } }
+		],
+		"name": "test-monorepo",
 		"url": "https://github.com/Flam64/test-monorepo"
 	},
 	{
@@ -65,6 +75,7 @@
 		"id": "R_kgDONIgAVQ",
 		"isPrivate": false,
 		"languages": [{ "size": 562, "node": { "name": "JavaScript" } }],
+		"name": "JS-React-W6-Serve-employees",
 		"url": "https://github.com/Flam64/JS-React-W6-Serve-employees"
 	},
 	{
@@ -77,6 +88,7 @@
 			{ "size": 1767, "node": { "name": "CSS" } },
 			{ "size": 1202, "node": { "name": "TypeScript" } }
 		],
+		"name": "JS-React-W6-Fetch-employees",
 		"url": "https://github.com/Flam64/JS-React-W6-Fetch-employees"
 	},
 	{
@@ -88,6 +100,7 @@
 			{ "size": 2042, "node": { "name": "CSS" } },
 			{ "size": 3536, "node": { "name": "TypeScript" } }
 		],
+		"name": "week5-marmi-wild",
 		"url": "https://github.com/Flam64/week5-marmi-wild"
 	},
 	{
@@ -99,6 +112,7 @@
 			{ "size": 1767, "node": { "name": "CSS" } },
 			{ "size": 2152, "node": { "name": "TypeScript" } }
 		],
+		"name": "ReactBasics-01-Pokedex",
 		"url": "https://github.com/Flam64/ReactBasics-01-Pokedex"
 	},
 	{
@@ -106,6 +120,7 @@
 		"id": "R_kgDONAFRwQ",
 		"isPrivate": false,
 		"languages": [{ "size": 251, "node": { "name": "JavaScript" } }],
+		"name": "challenge-final-quete-NodeJS",
 		"url": "https://github.com/Flam64/challenge-final-quete-NodeJS"
 	},
 	{
@@ -113,13 +128,20 @@
 		"id": "R_kgDONAeN0A",
 		"isPrivate": false,
 		"languages": [{ "size": 186, "node": { "name": "JavaScript" } }],
+		"name": "chalk",
 		"url": "https://github.com/Flam64/chalk"
 	},
 	{
 		"description": "",
 		"id": "R_kgDONAdU1A",
 		"isPrivate": false,
-		"languages": [{ "size": 72, "node": { "name": "HTML" } }],
+		"languages": [
+			{ "size": 734, "node": { "name": "JavaScript" } },
+			{ "size": 403, "node": { "name": "HTML" } },
+			{ "size": 1767, "node": { "name": "CSS" } },
+			{ "size": 1202, "node": { "name": "TypeScript" } }
+		],
+		"name": "Projet-Wilders",
 		"url": "https://github.com/Flam64/Projet-Wilders"
 	},
 	{
@@ -127,6 +149,7 @@
 		"id": "R_kgDOM_8IKA",
 		"isPrivate": false,
 		"languages": [{ "size": 190, "node": { "name": "JavaScript" } }],
+		"name": "challenge-node-04",
 		"url": "https://github.com/Flam64/challenge-node-04"
 	},
 	{
@@ -134,20 +157,33 @@
 		"id": "R_kgDOM61I2Q",
 		"isPrivate": false,
 		"languages": [{ "size": 72, "node": { "name": "HTML" } }],
+		"name": "wild-project",
 		"url": "https://github.com/Flam64/wild-project"
 	},
 	{
 		"description": "My first -repo-",
 		"id": "R_kgDOM6Sn5A",
 		"isPrivate": false,
-		"languages": [{ "size": 72, "node": { "name": "HTML" } }],
+		"languages": [
+			{ "size": 734, "node": { "name": "JavaScript" } },
+			{ "size": 403, "node": { "name": "HTML" } },
+			{ "size": 1767, "node": { "name": "CSS" } },
+			{ "size": 1202, "node": { "name": "TypeScript" } }
+		],
+		"name": "helloword",
 		"url": "https://github.com/Flam64/helloword"
 	},
 	{
 		"description": "Challenge git - github 3",
 		"id": "R_kgDOM6eGdg",
 		"isPrivate": false,
-		"languages": [{ "size": 72, "node": { "name": "HTML" } }],
+		"languages": [
+			{ "size": 734, "node": { "name": "JavaScript" } },
+			{ "size": 403, "node": { "name": "HTML" } },
+			{ "size": 1767, "node": { "name": "CSS" } },
+			{ "size": 1202, "node": { "name": "TypeScript" } }
+		],
+		"name": "my-awesome-project",
 		"url": "https://github.com/Flam64/my-awesome-project"
 	}
 ]
