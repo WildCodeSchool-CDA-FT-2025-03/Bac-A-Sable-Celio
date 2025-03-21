@@ -4,12 +4,27 @@ import client from "./client";
 
 const useRepos = () => {
 	const [repos, setRepos] = useState<MyReposType[]>([]);
+	const [oneRepo, setOneRepo] = useState<MyReposType>();
+
+	const getOneRepo = (id: string) => {
+		client.get(`/repos/${id}`).then((repo) => {
+			setOneRepo(repo.data as MyReposType);
+			console.info("Fin de setRepo");
+		});
+	};
+
+	const addNewRepo = async (repo: MyReposType) => {
+		try {
+			await client.post("/repos", repo);
+		} catch (error) {
+			console.error(error);
+		}
+	};
 
 	useEffect(() => {
 		client
 			.get("/repos")
 			.then((data) => {
-				console.info("données de data dans useEffect : ", data);
 				setRepos(data.data as MyReposType[]);
 			})
 			.catch((error) => {
@@ -17,7 +32,6 @@ const useRepos = () => {
 			});
 	}, []);
 
-	console.log("Valeur de Repos dans useRepos : ", repos);
-	return { repos };
+	return { repos, oneRepo, getOneRepo, addNewRepo };
 };
 export default useRepos;
