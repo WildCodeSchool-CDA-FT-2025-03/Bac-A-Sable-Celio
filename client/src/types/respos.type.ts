@@ -2,9 +2,8 @@ type Languages = {
 	size: number;
 	node: { name: string };
 };
-
 export type MyReposType = {
-	id: string;
+	id?: string;
 	isPrivate: boolean;
 	languages: Languages[];
 	name: string;
