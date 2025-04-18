@@ -11,8 +11,8 @@ app.use("/api", router);
 
 app.use(express.json());
 
-const port = process.env.SERVER_PORT || 3000;
+const port = process.env.SERVER_PORT || 4000;
 
 app.listen(port, () => {
-	console.info(`You server running on http://localhost:${port}`);
+  console.info(`You server running on http://localhost:${port}`);
 });
