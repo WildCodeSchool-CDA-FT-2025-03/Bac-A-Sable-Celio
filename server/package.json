@@ -5,7 +5,7 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"getRepo": "gh repo list Flam64 --json id,name,isPrivate,url,languages,description > ./data/myRepos.json",
-		"start": "ts-node-dev ./src/index.ts",
+		"dev": "ts-node-dev ./src/index.ts",
 		"build": "npx tsc",
 		"prod": "node ./build/index.js"
 	},

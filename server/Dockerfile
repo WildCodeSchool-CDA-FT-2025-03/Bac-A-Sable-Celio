@@ -1,4 +1,4 @@
-FROM node:lts-alpine as api
+FROM node:lts-alpine AS prod
 
 WORKDIR /app
 
@@ -10,6 +10,8 @@ COPY src src
 
 COPY data data
 
-EXPOSE 3000
+RUN npm run build
 
-CMD ["npm", "run", "start"]
+EXPOSE 4000
+
+CMD ["npm", "run", "prod"]
