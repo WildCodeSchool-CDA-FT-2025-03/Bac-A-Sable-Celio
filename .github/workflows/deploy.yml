@@ -1,5 +1,4 @@
 name: Automatic Deploy on VPS with bash # Nom donné à notre action automatique, ce nom est arbitraire
-name: Automatic deploy on VPS # nom de l'action d'automatisation
 on: # Listener d'evenements github *
   push:
     branches:
