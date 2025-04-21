@@ -11,4 +11,7 @@ export default defineConfig({
       "remote-cda4.wilders.dev",
     ],
   },
+  server: {
+    port: 4173,
+  },
 });
