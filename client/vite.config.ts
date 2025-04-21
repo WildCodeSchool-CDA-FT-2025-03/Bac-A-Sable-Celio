@@ -7,6 +7,7 @@ export default defineConfig({
   preview: {
     host: "0.0.0.0",
     allowedHosts: [
+      "localhost",
       "odyssey.remote-cda4.wilders.dev",
       "remote-cda4.wilders.dev",
     ],
